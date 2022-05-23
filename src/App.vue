@@ -1,7 +1,7 @@
 <template>
     <div>
         <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
-        <span>23</span>
+        <span>231</span>
     </div>
 </template>
 
