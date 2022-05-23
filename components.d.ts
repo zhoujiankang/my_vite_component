@@ -6,15 +6,6 @@ import '@vue/runtime-core'
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     ElButton: typeof import('element-plus/es')['ElButton']
-    ElCheckbox: typeof import('element-plus/es')['ElCheckbox'];
-    ElCheckboxGroup: typeof import('element-plus/es')['ElCheckboxGroup'];
-    ElDivider: typeof import('element-plus/es')['ElDivider'];
-    ElForm: typeof import('element-plus/es')['ElForm'];
-    ElFormItem: typeof import('element-plus/es')['ElFormItem'];
-    ElInput: typeof import('element-plus/es')['ElInput'];
-    ElSlider: typeof import('element-plus/es')['ElSlider'];
-    ElSwitch: typeof import('element-plus/es')['ElSwitch'];
-    ElTimePicker: typeof import('element-plus/es')['ElTimePicker'];
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
   }
 }
