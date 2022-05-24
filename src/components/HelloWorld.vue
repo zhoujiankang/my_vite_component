@@ -1,6 +1,10 @@
 <template>
-    <el-button type="primary" @click="increment">{{ state.count }}</el-button>
-    <span>更新了</span>
+    <div>
+        <el-button type="primary" @click="increment">{{
+            state.count
+        }}</el-button>
+        <span>更新了--更新了</span>
+    </div>
 </template>
 
 <script setup lang="ts">
